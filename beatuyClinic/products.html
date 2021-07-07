@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/ee0a0de948.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./products.js" type="module"></script>
+    <title>products</title>
+  </head>
+  <body>
+    <!-- header  -->
+
+    <header id="home">
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- header with logo and nav-btn -->
+          <div class="nav-header">
+            <button type="submit" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+            <form class="form-control search-control">
+              <input type="search" placeholder="sök produkt" class="search" />
+              <i class="fas fa-search search-btn"></i>
+            </form>
+            <span class="cart">
+              <i class="fas fa-cart-plus"></i>
+              <span class="num">0</span>
+            </span>
+          </div>
+          <!-- end of nav-header -->
+          <!-- nav links -->
+          <!-- nav-icons -->
+          <ul class="nav-links" id="nav-links">
+            <!-- singerl link -->
+            <li>
+              <a href="./index.html" class="nav-link scroll-link">home</a>
+            </li>
+            <!-- end link -->
+            <!-- singerl link -->
+            <li>
+              <a href="#products" class="nav-link scroll-link">products</a>
+            </li>
+            <!-- end link -->
+            <!-- singerl link -->
+            <li>
+              <a href="./index.html" class="nav-link scroll-link">contact</a>
+            </li>
+            <!-- end link -->
+            <!-- singerl link -->
+
+            <!-- end link -->
+          </ul>
+          <!-- end of nav links -->
+          <!-- nav-icons -->
+          <!-- <ul class="nav-icons">
+            <span class="nav-icon num">0</span>
+            <li> <i class="fas fa-cart-plus nav-icon"></i></li>
+          </ul> -->
+        </div>
+      </nav>
+      <!-- hero -->
+    </header>
+    <!-- end of header  -->
+
+    <!-- featured tours -->
+    <section class="section" id="products">
+      <div class="section-title">
+        <h2>Sommar <span> Nyheter</span></h2>
+      </div>
+      <div class="section-center featured-center">
+        <!-- cards -->
+        <!-- <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-1.jpeg" class="tour-img" />
+            <p class="tour-date">juni 14th 2021</p>
+          </div>
+           tour info -->
+        <!-- <div class="tour-info">
+            <div class="tour-title">
+              <h4>tibet adventure</h4>
+              <p>6 days</p>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel
+              voluptate soluta illum beatae mollitia minus non dolor molestiae
+              praesentium.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  nyhet
+                </span>
+              </p>
+              <p>pris $2100</p>
+            </div>
+          </div>
+        </article> -->
+
+        <!-- end of card -->
+      </div>
+      <div class="tour-btn">
+        <a href="#" class="btn all-products">all products</a>
+      </div>
+    </section>
+    <!-- end of featured tours -->
+
+    <!-- contact -->
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <!-- contact-title -->
+        <article class="contact-title">
+          <h3>want latest news and updates?</h3>
+          <p>Sign up for newsletter and stay up to date</p>
+        </article>
+        <!-- contact-from -->
+        <form class="contact-form">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="your email"
+          />
+          <button type="submit" class="btn-submit">submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- end of contact -->
+
+    <!-- footer -->
+    <footer class="section footer">
+      <!-- footer link -->
+      <ul class="footer-links">
+        <!-- singerl link -->
+        <li>
+          <a href="#home" class="footer-link scroll-link">home</a>
+        </li>
+        <!-- end link -->
+        <!-- singerl link -->
+        <li>
+          <a href="#products" class="footer-link scroll-link">products</a>
+        </li>
+        <!-- end link -->
+        <!-- singerl link -->
+
+        <!-- end link -->
+      </ul>
+      <!-- end of footer link -->
+      <ul class="footer-icons">
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank" class="footer-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.squarespace.com"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="copyright">
+        copyright &copy; comfy house furniture company <span id="date"></span>
+        all rights reserved
+      </p>
+    </footer>
+  </body>
+</html>

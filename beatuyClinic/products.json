@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "title": "tandbleknin Fast Cliniq ",
+      "price": 499,
+      "image": "./images/product-1.jpg"
+    },
+
+    {
+      "title": "tandblekning Cliniq",
+      "price": 495,
+      "image": "./images/product-2.jpg"
+    },
+
+    {
+      "title": "tandblekning one time ",
+      "price": 390,
+      "image": "./images/product-3.jpg"
+    },
+
+    {
+      "title": "tandkräms pasta",
+      "price": 299,
+      "image": "./images/product-4.jpeg"
+    },
+    {
+      "title": "tandblekning ultra",
+      "price": 395,
+      "image": "./images/product-5.jpeg"
+    },
+
+    {
+      "title": "tandblekning deluxe",
+      "price": 399,
+      "image": "./images/product-7.jpeg"
+    }
+  ]
+}
